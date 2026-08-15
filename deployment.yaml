@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: quickbite
-          image: YOUR_AWS_ACCOUNT_ID.dkr.ecr.us-east-2.amazonaws.com/quickbite:latest
+          image: ${AWS_ACCOUNT_ID}.dkr.ecr.us-east-2.amazonaws.com/quickbite:latest
           ports:
             - containerPort: 5000
           resources:
